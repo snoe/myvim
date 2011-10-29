@@ -18,6 +18,8 @@
 'NERDTreeWinPos'	NERD_tree.txt	/*'NERDTreeWinPos'*
 'NERDTreeWinSize'	NERD_tree.txt	/*'NERDTreeWinSize'*
 'loaded_nerd_tree'	NERD_tree.txt	/*'loaded_nerd_tree'*
+:Ack	ack.txt	/*:Ack*
+:AckAdd	ack.txt	/*:AckAdd*
 :CVSEdit	vcscommand.txt	/*:CVSEdit*
 :CVSEditors	vcscommand.txt	/*:CVSEditors*
 :CVSUnedit	vcscommand.txt	/*:CVSUnedit*
@@ -44,6 +46,8 @@
 :FuzzyFinderTag	fuzzyfinder.txt	/*:FuzzyFinderTag*
 :FuzzyFinderTagWithCursorWord	fuzzyfinder.txt	/*:FuzzyFinderTagWithCursorWord*
 :FuzzyFinderTaggedFile	fuzzyfinder.txt	/*:FuzzyFinderTaggedFile*
+:LAck	ack.txt	/*:LAck*
+:LAckAdd	ack.txt	/*:LAckAdd*
 :NERDTree	NERD_tree.txt	/*:NERDTree*
 :NERDTreeClose	NERD_tree.txt	/*:NERDTreeClose*
 :NERDTreeFromBookmark	NERD_tree.txt	/*:NERDTreeFromBookmark*
@@ -145,6 +149,9 @@ VCSCommandSVNDiffOpt	vcscommand.txt	/*VCSCommandSVNDiffOpt*
 VCSCommandSVNExec	vcscommand.txt	/*VCSCommandSVNExec*
 VCSCommandSplit	vcscommand.txt	/*VCSCommandSplit*
 VCSCommandVCSTypeOverride	vcscommand.txt	/*VCSCommandVCSTypeOverride*
+ack	ack.txt	/*ack*
+ack-author	ack.txt	/*ack-author*
+ack.txt	ack.txt	/*ack.txt*
 b:VCSCommandCommand	vcscommand.txt	/*b:VCSCommandCommand*
 b:VCSCommandOriginalBuffer	vcscommand.txt	/*b:VCSCommandOriginalBuffer*
 b:VCSCommandSourceFile	vcscommand.txt	/*b:VCSCommandSourceFile*

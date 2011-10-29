@@ -1,13 +1,14 @@
 set nocompatible
 
-set mouse=a
-
-set background=dark
-colorscheme ir_black
-set cursorline
+" set mouse=a
+:noremap <LeftRelease> "+y<LeftRelease>
 set t_Co=256
+set background=dark
+colorscheme molokai
+set cursorline
 " allow unsaved buffers
 set hidden
+set backspace=2
 
 " better command line completion
 set wildmode=longest,list,full
@@ -54,6 +55,8 @@ cmap w!! %!sudo tee > /dev/null %
 " omni complete
 inoremap <Nul> <C-x><C-o>
 
-" select function
-map t ? function <CR>f{vaBV
+" clear search
+nnoremap <silent> <C-L> :nohls<CR><C-L>
 
+" select function
+" map t ? function <CR>f{vaBV
