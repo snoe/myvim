@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/case/dev/hatebot/test/unit'
 let g:netrw_dirhist_2='/home/case/dev/hatebot/akelos/lib/AkActiveRecord'
 let g:netrw_dirhist_3='/home/case/dev/hatebot/app/controllers'
 let g:netrw_dirhist_4='/home/case/dev/hatebot/test'
+let g:netrw_dirhist_5='/Users/case/dev/clustering/src/views'
