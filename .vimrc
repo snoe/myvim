@@ -26,7 +26,6 @@ Bundle 'tpope/vim-fireplace.git'
 Bundle 'tpope/vim-classpath.git'
 Bundle 'guns/vim-clojure-static.git'
 Bundle 'kien/rainbow_parentheses.vim'
-Bundle 'Floobits/floobits-vim'
 
 " scripts from http://vim-scripts.org/vim/scripts.html
 " Bundle 'L9'
