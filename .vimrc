@@ -14,18 +14,20 @@ Bundle 'gmarik/vundle'
 " The following are examples of different formats supported.
 " Keep bundle commands between here and filetype plugin indent on.
 " scripts on GitHub repos
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-surround'
 Bundle 'fholgado/minibufexpl.vim'
-Bundle 'scrooloose/nerdtree'
-Bundle 'tsaleh/vim-align'
-Bundle 'kien/ctrlp.vim'
-Bundle 'rking/ag.vim'
-Bundle 'vim-scripts/paredit.vim'
-Bundle 'tpope/vim-fireplace.git'
-Bundle 'tpope/vim-classpath.git'
 Bundle 'guns/vim-clojure-static.git'
+Bundle 'kien/ctrlp.vim'
 Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'rking/ag.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-classpath.git'
+Bundle 'tpope/vim-fireplace.git'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-unimpaired'
+Bundle 'tsaleh/vim-align'
+Bundle 'vim-scripts/paredit.vim'
 
 " scripts from http://vim-scripts.org/vim/scripts.html
 " Bundle 'L9'
@@ -84,6 +86,10 @@ let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1 
+
+" Paredit
+let g:paredit_electric_return = 1
+let g:paredit_smartjump = 1
 
 " RainbowParen config
 let g:rbpt_colorpairs = [
